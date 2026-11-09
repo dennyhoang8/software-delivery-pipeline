@@ -1,0 +1,10 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - python3 -m unittest discover -v
+      - mkdir -p dist
+      - python3 app.py > dist/greeting.txt
+artifacts:
+  files:
+    - dist/greeting.txt
