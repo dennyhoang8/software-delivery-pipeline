@@ -1,3 +1,5 @@
+# Verify automatic pipeline trigger and approval notification.
+
 def greeting(name):
     return f"Hello, {name}!"
 
